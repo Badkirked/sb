@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Incident Report</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+<p><strong>Date:</strong> 02/08/2024</p>
+
+<h1>Security Incident Report</h1>
+
+<p>
+    I hope this letter finds you well. I am writing to provide you with a comprehensive report on recent security incidents and breaches that have occurred within your network at <strong>51 Oakdale Road Gateshead</strong>. This analysis aims to shed light on the various unauthorized activities, particularly focusing on how social engineering tactics may have played a significant role.
+</p>
+
+<p><strong class="highlight">TeamViewer Activity:</strong></p>
+<p>
+    The attached table highlights multiple instances of unauthorized access via TeamViewer, a remote control software. Each entry indicates a specific date, time, and details of the login attempts, all traced back to a common attacker ID. Notably, several entries describe "long login detected," suggesting prolonged unauthorized access potentially for data extraction or system manipulation.
+</p>
+<p>
+    From a cybersecurity standpoint, these repeated unauthorized access attempts underscore the need for stringent access controls and continuous monitoring. The severity of these incidents is color-coded, with high-risk activities marked in red. These activities suggest a well-coordinated effort by the attacker to maintain prolonged access, which is a hallmark of social engineering attacks where trust is exploited to gain extended system access.
+</p>
+
+<p><strong class="highlight">Firewall Breaches:</strong></p>
+<p>
+    The firewall breaches table outlines various incidents where unauthorized remote access attempts were detected. Each entry details the date, time, and specific vulnerabilities exploited, such as services with broad permissions or the use of IoT communications (AllJoyn Router).
+</p>
+<p>
+    These breaches illustrate how attackers leverage weak points in network security. Unauthorized access via remote assistance services and generic services with broad permissions highlight the necessity for robust firewall configurations and regular security audits. The medium severity of these breaches emphasizes the potential for exploitation, often facilitated by social engineers who manipulate users into bypassing security protocols.
+</p>
+
+<p><strong class="highlight">Security Incidents:</strong></p>
+<p>
+    The security incidents table provides a detailed account of various unauthorized activities, ranging from missing critical files (keyiso.dll_190) to unauthorized email backups and installations of remote access software (TeamViewer, GoToMeeting). Each incident is color-coded based on its severity, with high-severity incidents indicating significant security threats.
+</p>
+<p>
+    These incidents demonstrate how attackers systematically compromise systems by exploiting both technical vulnerabilities and social engineering techniques. Unauthorized email forwarding and the installation of remote communication tools suggest a targeted approach to gaining and maintaining access, often by manipulating trusted individuals within the organization.
+</p>
+
+<h2>Legend</h2>
+<ul>
+    <li><span class="severity-low">Green - Safe</span></li>
+    <li><span class="severity-medium">Amber - Moderate</span></li>
+    <li><span class="severity-high">Red - Alert</span></li>
+</ul>
+
+<h2>TeamViewer Activity</h2>
+<table>
+    <tr class="header">
+        <th>Date</th>
+        <th>Day</th>
+        <th>Time</th>
+        <th>TeamViewer ID</th>
+        <th>Details</th>
+        <th>Attacker ID</th>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">10/07/2022</td>
+        <td class="severity-medium">Sunday</td>
+        <td class="severity-medium">23:27:56</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">10/07/2022</td>
+        <td class="severity-medium">Sunday</td>
+        <td class="severity-medium">23:29:10</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">10/07/2022</td>
+        <td class="severity-medium">Sunday</td>
+        <td class="severity-medium">23:33:00</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">13/07/2022</td>
+        <td class="severity-medium">Wednesday</td>
+        <td class="severity-medium">00:03:15</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">13/07/2022</td>
+        <td class="severity-medium">Wednesday</td>
+        <td class="severity-medium">00:03:18</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">13/07/2022</td>
+        <td class="severity-medium">Wednesday</td>
+        <td class="severity-medium">00:03:47</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">13/07/2022</td>
+        <td class="severity-medium">Wednesday</td>
+        <td class="severity-medium">00:06:25</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">13/07/2022</td>
+        <td class="severity-high">Wednesday</td>
+        <td class="severity-high">09:32:58</td>
+        <td class="severity-high">191166223</td>
+        <td class="severity-high">long login detected.</td>
+        <td class="severity-high">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">19/07/2022</td>
+        <td class="severity-high">Tuesday</td>
+        <td class="severity-high">23:49:39</td>
+        <td class="severity-high">191166223</td>
+        <td class="severity-high">long login detected.</td>
+        <td class="severity-high">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">20/07/2022</td>
+        <td class="severity-high">Wednesday</td>
+        <td class="severity-high">00:03:43</td>
+        <td class="severity-high">191166223</td>
+        <td class="severity-high">long login detected.</td>
+        <td class="severity-high">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">20/07/2022</td>
+        <td class="severity-high">Wednesday</td>
+        <td class="severity-high">01:02:07</td>
+        <td class="severity-high">191166223</td>
+        <td class="severity-high">long login detected.</td>
+        <td class="severity-high">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">21/07/2022</td>
+        <td class="severity-high">Thursday</td>
+        <td class="severity-high">16:05:56</td>
+        <td class="severity-high">191166223</td>
+        <td class="severity-high">long login detected.</td>
+        <td class="severity-high">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">22/07/2022</td>
+        <td class="severity-high">Friday</td>
+        <td class="severity-high">01:08:41</td>
+        <td class="severity-high">191166223</td>
+        <td class="severity-high">long login detected.</td>
+        <td class="severity-high">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">10/06/2024</td>
+        <td class="severity-medium">Monday</td>
+        <td class="severity-medium">00:50:23</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">29/06/2024</td>
+        <td class="severity-medium">Saturday</td>
+        <td class="severity-medium">01:25:28</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">01/07/2024</td>
+        <td class="severity-medium">Monday</td>
+        <td class="severity-medium">08:59:37</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">02/07/2024</td>
+        <td class="severity-medium">Tuesday</td>
+        <td class="severity-medium">08:59:38</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">03/07/2024</td>
+        <td class="severity-medium">Wednesday</td>
+        <td class="severity-medium">08:59:37</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">04/07/2024</td>
+        <td class="severity-medium">Thursday</td>
+        <td class="severity-medium">06:58:55</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">05/07/2024</td>
+        <td class="severity-medium">Friday</td>
+        <td class="severity-medium">07:46:22</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">08/07/2024</td>
+        <td class="severity-medium">Monday</td>
+        <td class="severity-medium">07:05:02</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">09/07/2024</td>
+        <td class="severity-medium">Tuesday</td>
+        <td class="severity-medium">07:17:06</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">10/07/2024</td>
+        <td class="severity-medium">Wednesday</td>
+        <td class="severity-medium">06:53:18</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">11/07/2024</td>
+        <td class="severity-medium">Thursday</td>
+        <td class="severity-medium">08:35:16</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">12/07/2024</td>
+        <td class="severity-medium">Friday</td>
+        <td class="severity-medium">08:35:45</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">13/07/2024</td>
+        <td class="severity-medium">Saturday</td>
+        <td class="severity-medium">07:03:41</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">14/07/2024</td>
+        <td class="severity-medium">Sunday</td>
+        <td class="severity-medium">08:35:52</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">15/07/2024</td>
+        <td class="severity-medium">Monday</td>
+        <td class="severity-medium">07:02:36</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">16/07/2024</td>
+        <td class="severity-medium">Tuesday</td>
+        <td class="severity-medium">10:33:36</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">17/07/2024</td>
+        <td class="severity-medium">Wednesday</td>
+        <td class="severity-medium">14:01:52</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">18/07/2024</td>
+        <td class="severity-medium">Thursday</td>
+        <td class="severity-medium">07:00:38</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">19/07/2024</td>
+        <td class="severity-medium">Friday</td>
+        <td class="severity-medium">07:02:28</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">20/07/2024</td>
+        <td class="severity-high">Saturday</td>
+        <td class="severity-high">09:33:05</td>
+        <td class="severity-high">191166223</td>
+        <td class="severity-high">long login detected.</td>
+        <td class="severity-high">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">21/07/2024</td>
+        <td class="severity-medium">Sunday</td>
+        <td class="severity-medium">07:03:31</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">22/07/2024</td>
+        <td class="severity-medium">Monday</td>
+        <td class="severity-medium">10:33:37</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">23/07/2024</td>
+        <td class="severity-medium">Tuesday</td>
+        <td class="severity-medium">07:33:06</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">24/07/2024</td>
+        <td class="severity-medium">Wednesday</td>
+        <td class="severity-medium">08:33:02</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">25/07/2024</td>
+        <td class="severity-medium">Thursday</td>
+        <td class="severity-medium">06:33:39</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">26/07/2024</td>
+        <td class="severity-medium">Friday</td>
+        <td class="severity-medium">06:34:47</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">27/07/2024</td>
+        <td class="severity-medium">Saturday</td>
+        <td class="severity-medium">08:34:15</td>
+        <td class="severity-medium">191166223</td>
+        <td class="severity-medium">login detected.</td>
+        <td class="severity-medium">1755289521</td>
+    </tr>
+    
+</table>
+
+<h2>Firewall Breaches</h2>
+<table>
+    <tr class="header">
+        <th>Date and Time</th>
+        <th>Details</th>
+        <th>Paths</th>
+        <th>Risk</th>
+        <th>Category</th>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">26/07/2024 11:28:23 AM</td>
+        <td class="severity-high">Remote assistance services provide a potential entry point for unauthorized access.</td>
+        <td class="severity-high">%SystemRoot%\system32\svchost.exe, %SystemRoot%\system32\msra.exe, %SystemRoot%\system32\raserver.exe</td>
+        <td class="severity-high">Unauthorized remote access.</td>
+        <td class="severity-high">remote_assistance</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">25/07/2024 10:51:10 AM</td>
+        <td class="severity-high">Remote assistance services provide a potential entry point for unauthorized access.</td>
+        <td class="severity-high">%SystemRoot%\system32\svchost.exe, %SystemRoot%\system32\msra.exe, %SystemRoot%\system32\raserver.exe</td>
+        <td class="severity-high">Unauthorized remote access.</td>
+        <td class="severity-high">remote_assistance</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">23/07/2024 2:46:20 PM</td>
+        <td class="severity-high">Remote assistance services provide a potential entry point for unauthorized access.</td>
+        <td class="severity-high">%SystemRoot%\system32\svchost.exe, %SystemRoot%\system32\msra.exe, %SystemRoot%\system32\raserver.exe</td>
+        <td class="severity-high">Unauthorized remote access.</td>
+        <td class="severity-high">remote_assistance</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">23/07/2024 1:58:07 PM</td>
+        <td class="severity-high">Remote assistance services provide a potential entry point for unauthorized access.</td>
+        <td class="severity-high">%SystemRoot%\system32\svchost.exe, %SystemRoot%\system32\msra.exe, %SystemRoot%\system32\raserver.exe</td>
+        <td class="severity-high">Unauthorized remote access.</td>
+        <td class="severity-high">remote_assistance</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">22/07/2024 7:42:17 AM</td>
+        <td class="severity-high">Remote assistance services provide a potential entry point for unauthorized access.</td>
+        <td class="severity-high">%SystemRoot%\system32\svchost.exe, %SystemRoot%\system32\msra.exe, %SystemRoot%\system32\raserver.exe</td>
+        <td class="severity-high">Unauthorized remote access.</td>
+        <td class="severity-high">remote_assistance</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">21/07/2024 11:19:09 AM</td>
+        <td class="severity-high">Remote assistance services provide a potential entry point for unauthorized access.</td>
+        <td class="severity-high">%SystemRoot%\system32\svchost.exe, %SystemRoot%\system32\msra.exe, %SystemRoot%\system32\raserver.exe</td>
+        <td class="severity-high">Unauthorized remote access.</td>
+        <td class="severity-high">remote_assistance</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">20/07/2024 9:48:15 AM</td>
+        <td class="severity-high">Remote assistance services provide a potential entry point for unauthorized access.</td>
+        <td class="severity-high">%SystemRoot%\system32\svchost.exe, %SystemRoot%\system32\msra.exe, %SystemRoot%\system32\raserver.exe</td>
+        <td class="severity-high">Unauthorized remote access.</td>
+        <td class="severity-high">remote_assistance</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">26/07/2024 11:28:23 AM</td>
+        <td class="severity-high">Services with broad permissions (Any for local and remote addresses and ports) increase the risk of exploitation.</td>
+        <td class="severity-high">%SystemRoot%\system32\svchost.exe allowing any TCP and UDP connections.</td>
+        <td class="severity-high">Network intrusion and unauthorized access.</td>
+        <td class="severity-high">generic_services</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">25/07/2024 10:51:10 AM</td>
+        <td class="severity-high">Services with broad permissions (Any for local and remote addresses and ports) increase the risk of exploitation.</td>
+        <td class="severity-high">%SystemRoot%\system32\svchost.exe allowing any TCP and UDP connections.</td>
+        <td class="severity-high">Network intrusion and unauthorized access.</td>
+        <td class="severity-high">generic_services</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">23/07/2024 2:46:20 PM</td>
+        <td class="severity-high">Services with broad permissions (Any for local and remote addresses and ports) increase the risk of exploitation.</td>
+        <td class="severity-high">%SystemRoot%\system32\svchost.exe allowing any TCP and UDP connections.</td>
+        <td class="severity-high">Network intrusion and unauthorized access.</td>
+        <td class="severity-high">generic_services</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">23/07/2024 1:58:07 PM</td>
+        <td class="severity-high">Services with broad permissions (Any for local and remote addresses and ports) increase the risk of exploitation.</td>
+        <td class="severity-high">%SystemRoot%\system32\svchost.exe allowing any TCP and UDP connections.</td>
+        <td class="severity-high">Network intrusion and unauthorized access.</td>
+        <td class="severity-high">generic_services</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">22/07/2024 7:42:17 AM</td>
+        <td class="severity-high">Services with broad permissions (Any for local and remote addresses and ports) increase the risk of exploitation.</td>
+        <td class="severity-high">%SystemRoot%\system32\svchost.exe allowing any TCP and UDP connections.</td>
+        <td class="severity-high">Network intrusion and unauthorized access.</td>
+        <td class="severity-high">generic_services</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">21/07/2024 11:19:09 AM</td>
+        <td class="severity-high">Services with broad permissions (Any for local and remote addresses and ports) increase the risk of exploitation.</td>
+        <td class="severity-high">%SystemRoot%\system32\svchost.exe allowing any TCP and UDP connections.</td>
+        <td class="severity-high">Network intrusion and unauthorized access.</td>
+        <td class="severity-high">generic_services</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">20/07/2024 9:48:15 AM</td>
+        <td class="severity-high">Services with broad permissions (Any for local and remote addresses and ports) increase the risk of exploitation.</td>
+        <td class="severity-high">%SystemRoot%\system32\svchost.exe allowing any TCP and UDP connections.</td>
+        <td class="severity-high">Network intrusion and unauthorized access.</td>
+        <td class="severity-high">generic_services</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">26/07/2024 11:28:23 AM</td>
+        <td class="severity-medium">Used for IoT communications, this service could be a weak point if IoT devices are not secured.</td>
+        <td class="severity-medium">%SystemRoot%\system32\svchost.exe</td>
+        <td class="severity-medium">IoT device compromise.</td>
+        <td class="severity-medium">alljoyn_router</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">25/07/2024 10:51:10 AM</td>
+        <td class="severity-medium">Used for IoT communications, this service could be a weak point if IoT devices are not secured.</td>
+        <td class="severity-medium">%SystemRoot%\system32\svchost.exe</td>
+        <td class="severity-medium">IoT device compromise.</td>
+        <td class="severity-medium">alljoyn_router</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">23/07/2024 2:46:20 PM</td>
+        <td class="severity-medium">Used for IoT communications, this service could be a weak point if IoT devices are not secured.</td>
+        <td class="severity-medium">%SystemRoot%\system32\svchost.exe</td>
+        <td class="severity-medium">IoT device compromise.</td>
+        <td class="severity-medium">alljoyn_router</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">23/07/2024 1:58:07 PM</td>
+        <td class="severity-medium">Used for IoT communications, this service could be a weak point if IoT devices are not secured.</td>
+        <td class="severity-medium">%SystemRoot%\system32\svchost.exe</td>
+        <td class="severity-medium">IoT device compromise.</td>
+        <td class="severity-medium">alljoyn_router</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">22/07/2024 7:42:17 AM</td>
+        <td class="severity-medium">Used for IoT communications, this service could be a weak point if IoT devices are not secured.</td>
+        <td class="severity-medium">%SystemRoot%\system32\svchost.exe</td>
+        <td class="severity-medium">IoT device compromise.</td>
+        <td class="severity-medium">alljoyn_router</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">21/07/2024 11:19:09 AM</td>
+        <td class="severity-medium">Used for IoT communications, this service could be a weak point if IoT devices are not secured.</td>
+        <td class="severity-medium">%SystemRoot%\system32\svchost.exe</td>
+        <td class="severity-medium">IoT device compromise.</td>
+        <td class="severity-medium">alljoyn_router</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">20/07/2024 9:48:15 AM</td>
+        <td class="severity-medium">Used for IoT communications, this service could be a weak point if IoT devices are not secured.</td>
+        <td class="severity-medium">%SystemRoot%\system32\svchost.exe</td>
+        <td class="severity-medium">IoT device compromise.</td>
+        <td class="severity-medium">alljoyn_router</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">22/07/2024 7:42:17 AM</td>
+        <td class="severity-medium">Service listed as missing.</td>
+        <td class="severity-medium"></td>
+        <td class="severity-medium"></td>
+        <td class="severity-medium">perception_simulation_service</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">23/07/2024 1:58:07 PM</td>
+        <td class="severity-high">Service listed as missing.</td>
+        <td class="severity-high">C:\WINDOWS\system32\locator.exe</td>
+        <td class="severity-high">System manipulation.</td>
+        <td class="severity-high">locator</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">20/07/2024 9:48:15 AM</td>
+        <td class="severity-medium">Service listed as missing.</td>
+        <td class="severity-medium">C:\WINDOWS\system32\SecurityHealthService.exe</td>
+        <td class="severity-medium">Health monitoring bypass.</td>
+        <td class="severity-medium">security_health_service</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">21/07/2024 11:19:09 AM</td>
+        <td class="severity-medium">Unknown owner.</td>
+        <td class="severity-medium">C:\WINDOWS\system32\SensorDataService.exe</td>
+        <td class="severity-medium">Unauthorized sensor data access.</td>
+        <td class="severity-medium">sensor_data_service</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">22/07/2024 7:42:17 AM</td>
+        <td class="severity-medium">Generic entry referencing a DLL.</td>
+        <td class="severity-medium">%SystemRoot%\system32\svchost.exe</td>
+        <td class="severity-medium">Potential system vulnerability.</td>
+        <td class="severity-medium">firewall_api</td>
+    </tr>
+    
+</table>
+
+<h2>Security Incidents</h2>
+<table>
+    <tr class="header">
+        <th>Date</th>
+        <th>Event</th>
+        <th>Details</th>
+        <th>Description</th>
+        <th>Severity</th>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">01/12/2022 (Thursday)</td>
+        <td class="severity-high">Missing keyiso.dll_190 entry</td>
+        <td class="severity-high">Indicates potential tampering with cryptographic operations.</td>
+        <td class="severity-high">This could involve renaming, moving, or deleting the keyiso.dll file or replacing it with a malicious version.</td>
+        <td class="severity-high">High</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">27/03/2024 (Wednesday)</td>
+        <td class="severity-high">Spreadsheet Labeled &#39;Passwords&#39; Accessed</td>
+        <td class="severity-high">A spreadsheet containing passwords was accessed on this date and then deleted.</td>
+        <td class="severity-high">Time: 10:42:41 AM</td>
+        <td class="severity-high">High</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">08/04/2024 (Monday)</td>
+        <td class="severity-medium">Unauthorized Email Forwarding</td>
+        <td class="severity-medium">GoDaddy notification of email forwarding setup for info@voidpanels.com.au.</td>
+        <td class="severity-medium">Time: 12:46 PM. Implication: Indicates potential unauthorized access to email communications.</td>
+        <td class="severity-medium">Medium</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">17/04/2024 (Thursday)</td>
+        <td class="severity-high">Unauthorized Email Backup</td>
+        <td class="severity-high">Unauthorized backup of the email account info@voidpanels.com.au.</td>
+        <td class="severity-high">Time: 2:24:02 PM. File Size Discrepancy: The unauthorized backup size is 647,049 KB compared to a recent backup size of 6,217 KB, suggesting significant data extraction or alteration.</td>
+        <td class="severity-high">High</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">03/05/2024 (Friday)</td>
+        <td class="severity-high">TeamViewer Installed</td>
+        <td class="severity-high">Installation of remote access software, indicating potential preparation for remote control of the system.</td>
+        <td class="severity-high">Event ID: 11707. Log ID: 191166223. Correlation: Corresponds with earlier unauthorized access attempts, suggesting a pattern of setting up remote control tools. Time: 09:58 AM</td>
+        <td class="severity-high">High</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">17/05/2024 (Saturday)</td>
+        <td class="severity-medium">GoToMeeting Installed</td>
+        <td class="severity-medium">Installation of a remote communication tool, potentially to facilitate ongoing unauthorized access or communication.</td>
+        <td class="severity-medium">Event ID: 11707. Log ID: 191166223. Correlation: This event corresponds with earlier unauthorized access attempts, indicating preparation for further remote control activities.</td>
+        <td class="severity-medium">Medium</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">17/07/2024 (Wednesday)</td>
+        <td class="severity-high">Xero Password Reset Email</td>
+        <td class="severity-high">Email from Matt Roberts admitting unauthorized access to Suzana Georgeff’s Xero account.</td>
+        <td class="severity-high">Matches with TeamViewer logs around the same period.</td>
+        <td class="severity-high">High</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">31/06/2023 (Thursday)</td>
+        <td class="severity-medium">Note on Site Inspection</td>
+        <td class="severity-medium">Upon site inspection on June 31, 2023, an unknown wireless network briefly appeared called &#39;IzOnU-Hack027&#39;.</td>
+        <td class="severity-medium">Further investigation is required as it seems to have disappeared or been hidden again. Given the size of the property and distance from neighbors, it is unlikely (but not impossible) that the source is off-site. IzOnU is a company in Australia specializing in solar-powered and long-distance high-quality surveillance cameras. The addition of &#39;HACK27&#39; at the end of the WiFi name is highly suspicious.</td>
+        <td class="severity-medium">Medium</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-medium">Date Not Provided</td>
+        <td class="severity-medium">Note on PC Infected</td>
+        <td class="severity-medium">The PC infected is &#39;SUZANA-PC&#39;.</td>
+        <td class="severity-medium">Note that the &#39;show mouse movement in TeamViewer&#39; was disabled.</td>
+        <td class="severity-medium">Medium</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">Date Not Provided</td>
+        <td class="severity-high">Telstra Gateway Modem Logs Wiped</td>
+        <td class="severity-high">The Telstra gateway modem&#39;s logs have been wiped.</td>
+        <td class="severity-high">This is highly unusual and suggests potential tampering.</td>
+        <td class="severity-high">High</td>
+    </tr>
+    
+    <tr>
+        <td class="severity-high">11/04/2024</td>
+        <td class="severity-high">Unauthorized Email and Xero Access</td>
+        <td class="severity-high">Forwarded Email by MR (3:44 PM)</td>
+        <td class="severity-high">Content: A forwarded email includes a screenshot of a Xero password reset notification sent to SGs email address. MRs message accompanying the screenshot states, &#39;Straight into my hands.&#39;</td>
+        <td class="severity-high">High</td>
+    </tr>
+    
+</table>
+
+<h2>Conclusion</h2>
+<p class="highlight">
+    <strong>The attacker employed a multi-faceted approach to compromise the network, combining social engineering skills with rudimentary penetration attempts. By leveraging social engineering, the attacker gained the trust of individuals within the organization, manipulating them into revealing sensitive information or performing actions that undermined security protocols. This human-centric technique was pivotal in bypassing initial security defenses and establishing a foothold within the network.</strong>
+</p>
+<p class="highlight">
+    <strong>Once inside, the attacker exploited remote access tools such as TeamViewer to maintain and extend their access. These tools, often used for legitimate purposes, were turned into vectors for unauthorized entry, allowing the attacker to navigate the network and identify valuable targets. The strategic use of compromised credentials facilitated deeper penetration into the system, enabling the attacker to move laterally and escalate their privileges. This method allowed for persistent access and the ability to extract sensitive data over an extended period.</strong>
+</p>
+<p class="highlight">
+    <strong>The combination of social engineering and rudimentary penetration tactics highlights the attacker's adaptability and persistence. By exploiting both human and technical vulnerabilities, they were able to execute a coordinated and sustained attack.</strong>
+</p>
+
+<p><strong>Name Redacted</strong></p>
+
+</body>
+</html>
